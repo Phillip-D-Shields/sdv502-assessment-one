@@ -1,0 +1,41 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4b4df007_002D3fbd_002D4ac9_002Db6e1_002D535baef9ffff/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="When_SingleAdultBefore5PM_Expect_CorrectPrice #5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::7541665C-1F27-4BB6-8A02-661356C2165E::.NETFramework,Version=v4.8::AssessmentOne.Tests.AdultBeforeFiveTests.When_SingleAdultBefore5PM_Expect_CorrectPrice&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=53eb27d8_002D9765_002D4f7d_002D9583_002D70ae52f18289/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="When_SingleAdultBefore5PM_Expect_CorrectPrice #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::7541665C-1F27-4BB6-8A02-661356C2165E::.NETFramework,Version=v4.8::AssessmentOne.Tests.AdultBeforeFiveTests.When_SingleAdultBefore5PM_Expect_CorrectPrice&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6f7ded2b_002D5768_002D4641_002Da673_002D2b81b2e58bc4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="When_SingleAdultBefore5PM_Expect_CorrectPrice" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::7541665C-1F27-4BB6-8A02-661356C2165E::.NETFramework,Version=v4.8::AssessmentOne.Tests.AdultBeforeFiveTests.When_SingleAdultBefore5PM_Expect_CorrectPrice&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8bfb7ff2_002D8586_002D4d5e_002Da720_002D58d2013ed498/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="When_SingleAdultBefore5PM_Expect_CorrectPrice #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::7541665C-1F27-4BB6-8A02-661356C2165E::.NETFramework,Version=v4.8::AssessmentOne.Tests.AdultBeforeFiveTests.When_SingleAdultBefore5PM_Expect_CorrectPrice&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b059767a_002Dee25_002D422e_002D97be_002Da6c87ddc0f54/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AdultBeforeFiveTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::7541665C-1F27-4BB6-8A02-661356C2165E::.NETFramework,Version=v4.8::AssessmentOne.Tests.AdultBeforeFiveTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c11c1144_002D5f70_002D46ab_002Da375_002D605dbf62871d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="When_SingleAdultBefore5PM_Expect_CorrectPrice #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::7541665C-1F27-4BB6-8A02-661356C2165E::.NETFramework,Version=v4.8::AssessmentOne.Tests.AdultBeforeFiveTests.When_SingleAdultBefore5PM_Expect_CorrectPrice&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ea645121_002Dba50_002D46ac_002D83e0_002De7b815c5a303/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="When_SingleAdultBefore5PM_Expect_CorrectPrice #6" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::7541665C-1F27-4BB6-8A02-661356C2165E::.NETFramework,Version=v4.8::AssessmentOne.Tests.AdultBeforeFiveTests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::7541665C-1F27-4BB6-8A02-661356C2165E::.NETFramework,Version=v4.8::AssessmentOne.Tests.AdultAfterFiveTests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::7541665C-1F27-4BB6-8A02-661356C2165E::.NETFramework,Version=v4.8::AssessmentOne.Tests.AdultTuesday&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::7541665C-1F27-4BB6-8A02-661356C2165E::.NETFramework,Version=v4.8::AssessmentOne.Tests.Child&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::7541665C-1F27-4BB6-8A02-661356C2165E::.NETFramework,Version=v4.8::AssessmentOne.Tests.ChickFlickThursday&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::7541665C-1F27-4BB6-8A02-661356C2165E::.NETFramework,Version=v4.8::AssessmentOne.Tests.KidsCareers&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
