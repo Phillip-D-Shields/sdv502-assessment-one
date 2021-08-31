@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using System;
+using NUnit.Framework;
 
 namespace AssessmentOne.Tests
 {
@@ -15,6 +16,7 @@ namespace AssessmentOne.Tests
         //          act
         //          assert
 
+        [Test]
         // Adult_Before_5(int prQuantity, string prPerson, string prDay, decimal prTime)
         [TestCase(1, "adult", "monday", 4, 14.50)]
         [TestCase(2, "adult", "monday", 4, 29.00)]
@@ -29,6 +31,17 @@ namespace AssessmentOne.Tests
             var tpc = new TicketPriceController();
             // act          invoke instance.method(args,...)
             var testData = tpc.Adult_Before_5(argQuantity, argPerson, argDay, argTime);
+            
+            // act log
+            Console.WriteLine("=============== test case inputs ===============");
+            Console.WriteLine($"quantity:\t{argQuantity}");
+            Console.WriteLine($"person:\t{argPerson}");
+            Console.WriteLine($"day:\t{argDay}");
+            Console.WriteLine($"time:\t{argTime}");
+            Console.WriteLine("=============== test case results ===============");
+            Console.WriteLine($"test case result:\t{testData}");
+            Console.WriteLine($"expected result:\t{expectedResult}");
+            
             // assert       invoke Assert.AreEqual() to return arg equality via bool 
             Assert.AreEqual(testData, expectedResult);
         }
@@ -38,6 +51,7 @@ namespace AssessmentOne.Tests
     // testing Adult_After_5()
     public class AdultAfterFiveTests
     {
+        [Test]
         // Adult_After_5(int prQuantity, string prPerson, string prDay, decimal prTime)
         [TestCase(1, "adult", "monday", 6, 17.50)]
         [TestCase(2, "adult", "monday", 6, 35.00)]
@@ -52,6 +66,17 @@ namespace AssessmentOne.Tests
             var tpc = new TicketPriceController();
             // act 
             var testData = tpc.Adult_After_5(argQuantity, argPerson, argDay, argTime);
+            
+            // act log
+            Console.WriteLine("=============== test case inputs ===============");
+            Console.WriteLine($"quantity:\t{argQuantity}");
+            Console.WriteLine($"person:\t{argPerson}");
+            Console.WriteLine($"day:\t{argDay}");
+            Console.WriteLine($"time:\t{argTime}");
+            Console.WriteLine("=============== test case results ===============");
+            Console.WriteLine($"test case result:\t{testData}");
+            Console.WriteLine($"expected result:\t{expectedResult}");
+            
             // assert
             Assert.AreEqual(testData, expectedResult);
         }
@@ -61,6 +86,7 @@ namespace AssessmentOne.Tests
     // testing Adult_Tuesday()
     public class AdultTuesday
     {
+        [Test]
         //   Adult_Tuesday(int prQuantity, string prPerson, string prDay)
         [TestCase(1, "adult", "tuesday", 13.00)]
         [TestCase(2, "adult", "tuesday", 26.00)]
@@ -74,6 +100,16 @@ namespace AssessmentOne.Tests
             var tpc = new TicketPriceController();
             // act 
             var testData = tpc.Adult_Tuesday(argQuantity, argPerson, argDay);
+            
+            // act log
+            Console.WriteLine("=============== test case inputs ===============");
+            Console.WriteLine($"quantity:\t{argQuantity}");
+            Console.WriteLine($"person:\t{argPerson}");
+            Console.WriteLine($"day:\t{argDay}");
+            Console.WriteLine("=============== test case results ===============");
+            Console.WriteLine($"test case result:\t{testData}");
+            Console.WriteLine($"expected result:\t{expectedResult}");
+            
             // assert
             Assert.AreEqual(testData, expectedResult);
         }
@@ -83,6 +119,7 @@ namespace AssessmentOne.Tests
     // testing Child_Under_16()
     public class Child
     {
+        [Test]
         //   Child_Under_16(int prQuantity, string prPerson)
         [TestCase(1, "child", 12.00)]
         [TestCase(2, "child", 24.00)]
@@ -95,6 +132,15 @@ namespace AssessmentOne.Tests
             var tpc = new TicketPriceController();
             // act 
             var testData = tpc.Child_Under_16(argQuantity, argPerson);
+            
+            // act log
+            Console.WriteLine("=============== test case inputs ===============");
+            Console.WriteLine($"quantity:\t{argQuantity}");
+            Console.WriteLine($"person:\t{argPerson}");
+            Console.WriteLine("=============== test case results ===============");
+            Console.WriteLine($"test case result:\t{testData}");
+            Console.WriteLine($"expected result:\t{expectedResult}");
+            
             // assert
             Assert.AreEqual(testData, expectedResult);
         }
@@ -104,6 +150,7 @@ namespace AssessmentOne.Tests
     // testing Student()
     public class Student
     {
+        [Test]
         //   Child_Under_16(int prQuantity, string prPerson)
         [TestCase(1, "student", 14.00)]
         [TestCase(2, "student", 28.00)]
@@ -116,6 +163,15 @@ namespace AssessmentOne.Tests
             var tpc = new TicketPriceController();
             // act 
             var testData = tpc.Student(argQuantity, argPerson);
+            
+            // act log
+            Console.WriteLine("=============== test case inputs ===============");
+            Console.WriteLine($"quantity:\t{argQuantity}");
+            Console.WriteLine($"person:\t{argPerson}");
+            Console.WriteLine("=============== test case results ===============");
+            Console.WriteLine($"test case result:\t{testData}");
+            Console.WriteLine($"expected result:\t{expectedResult}");
+            
             // assert
             Assert.AreEqual(testData, expectedResult);
         }
@@ -125,6 +181,7 @@ namespace AssessmentOne.Tests
     // testing Senior()
     public class Senior
     {
+        [Test]
         //   Senior(int prQuantity, string prPerson)
         [TestCase(1, "senior", 12.00)]
         [TestCase(2, "senior", 24.00)]
@@ -137,6 +194,15 @@ namespace AssessmentOne.Tests
             var tpc = new TicketPriceController();
             // act 
             var testData = tpc.Senior(argQuantity, argPerson);
+            
+            // act log
+            Console.WriteLine("=============== test case inputs ===============");
+            Console.WriteLine($"quantity:\t{argQuantity}");
+            Console.WriteLine($"person:\t{argPerson}");
+            Console.WriteLine("=============== test case results ===============");
+            Console.WriteLine($"test case result:\t{testData}");
+            Console.WriteLine($"expected result:\t{expectedResult}");
+            
             // assert
             Assert.AreEqual(testData, expectedResult);
         }
@@ -146,6 +212,7 @@ namespace AssessmentOne.Tests
     // testing Chick_Flick_Thursday()
     public class ChickFlickThursday
     {
+        [Test]
         //   Chick_Flick_Thursday(int prQuantity, string prPerson, string prDay)
         [TestCase(1, "adult", "thursday", 21.50)]
         [TestCase(2, "adult", "thursday", 43.00)]
@@ -159,6 +226,16 @@ namespace AssessmentOne.Tests
             var tpc = new TicketPriceController();
             // act 
             var testData = tpc.Chick_Flick_Thursday(argQuantity, argPerson, argDay);
+            
+            // act log
+            Console.WriteLine("=============== test case inputs ===============");
+            Console.WriteLine($"quantity:\t{argQuantity}");
+            Console.WriteLine($"person:\t{argPerson}");
+            Console.WriteLine($"day:\t{argDay}");
+            Console.WriteLine("=============== test case results ===============");
+            Console.WriteLine($"test case result:\t{testData}");
+            Console.WriteLine($"expected result:\t{expectedResult}");
+            
             // assert
             Assert.AreEqual(testData, expectedResult);
         }
@@ -168,6 +245,7 @@ namespace AssessmentOne.Tests
     // testing Kids_Careers()
     public class KidsCareers
     {
+        [Test]
         //   Kids_Careers(int prQuantity, string prDay, bool prHoliday)
         [TestCase(1, "wednesday", false, 12.00)]
         [TestCase(2, "wednesday", false, 24.00)]
@@ -181,6 +259,16 @@ namespace AssessmentOne.Tests
             var tpc = new TicketPriceController();
             // act 
             var testData = tpc.Kids_Careers(argQuantity, argDay, isHoliday);
+            
+            // act log
+            Console.WriteLine("=============== test case inputs ===============");
+            Console.WriteLine($"quantity:\t{argQuantity}");
+            Console.WriteLine($"day:\t{argDay}");
+            Console.WriteLine($"holiday:\t{isHoliday}");
+            Console.WriteLine("=============== test case results ===============");
+            Console.WriteLine($"test case result:\t{testData}");
+            Console.WriteLine($"expected result:\t{expectedResult}");
+            
             // assert
             Assert.AreEqual(testData, expectedResult);
         }
